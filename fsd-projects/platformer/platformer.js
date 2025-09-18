@@ -1,4 +1,4 @@
-$(function () {
+  $(function () {
   // initialize canvas and context when able to
   canvas = document.getElementById("canvas");
   ctx = canvas.getContext("2d");
@@ -23,7 +23,7 @@ $(function () {
     createPlatform(canvas.width, -50, 50, canvas.height + 100); // right wall
 
     //////////////////////////////////
-    // ONLY CHANGE BELOW THIS POINT //
+    // ONLY CHANGE BELOW THIS POINT //?
     //////////////////////////////////
 
     // TODO 1 - Enable the Grid
